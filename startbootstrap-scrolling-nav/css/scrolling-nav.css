@@ -6,6 +6,7 @@
 
 header {
   padding: 104px 0 54px;
+  background-color: #ff6600;
 }
 
 @media (min-width: 992px) {
@@ -14,6 +15,10 @@ header {
   }
 }
 
-section {
+/*section {
   padding: 150px 0;
+}*/
+
+p, ul, li {
+  font-size: .9rem;
 }

@@ -25,20 +25,6 @@ header {
   background-color: #220e33;
 }
 
-@media (min-width: 992px) {
-  header {
-    padding: 104px 0 54px;
-  }
-}
-
-/*section {
-  padding: 150px 0;
-}*/
-
-p, ul, li {
-  font-size: .9rem;
-}
-
 /* H's */
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -49,12 +35,42 @@ h1 {
   padding: 0 12px 0 0;  
  }
 
+ h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+ }
+
+ .row hr {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+  border: 0;
+ }
+
+ p, ul, li {
+  font-size: .9rem;
+}
+
+.quote {
+  font-style: italic;
+  padding-left: 60px;
+}
+
+ /****** Media, Mobil ******/
+
+@media (min-width: 992px) {
+  header {
+    padding: 104px 0 54px;
+  }
+}
+
+
+
 /* * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }*/
 
-.quote {
-  padding-left: 40px;
-}

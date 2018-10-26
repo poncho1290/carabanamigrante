@@ -9,6 +9,14 @@
   color: #220e33;
  }
 
+ .bg-amarillo {
+   background-color: #fff473;
+ }
+
+ .bg-verde {
+   background-color: #27d3bc;
+ }
+
  nav {
   background-color: #27d3bc;
   color: #220e33 !important;
@@ -25,11 +33,15 @@ header {
   background-color: #220e33;
 }
 
+section .donaciones {
+  background-color: #fff473;
+}
+
 /* H's */
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding: 0 12px 0 0;  
@@ -37,8 +49,8 @@ h1 {
 
  h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: .8rem;
+  font-weight: 500;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
  }

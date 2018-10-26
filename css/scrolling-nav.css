@@ -17,20 +17,16 @@
    background-color: #27d3bc;
  }
 
- nav {
-  background-color: #27d3bc;
-  color: #220e33 !important;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: .8rem;
-  letter-spacing: 1px;
-  padding: 0 12px 0 0;
-  text-transform: uppercase;
+ .bg-azul {
+  background-color: #220e33;
  }
+
+footer {
+  background-color: #220e33;
+}
 
 header {
   padding: 104px 0 54px;
-  background-color: #220e33;
 }
 
 section .donaciones {
@@ -55,6 +51,14 @@ h1 {
   letter-spacing: 1px;
  }
 
+ h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+ }
+
 hr {
   display: block;
   margin-top: 0.5em;
@@ -65,8 +69,29 @@ hr {
   border-width: 1px;
  }
 
+nav {
+  background-color: #27d3bc;
+  color: #220e33 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  padding: 0 12px 0 0;
+  text-transform: uppercase;
+ }
+
  p, ul, li {
   font-size: .9rem;
+}
+
+p.icon {
+  margin-bottom: 0;
+}
+
+/**** Paddings ****/
+.px-10 {
+  padding-left: 6rem!important;
+  padding-right: 6rem!important;
 }
 
 .quote {
